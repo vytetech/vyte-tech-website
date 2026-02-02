@@ -1,37 +1,37 @@
-import { useState } from 'react';
-import { ArrowRight, Mail, Phone, MapPin, Send, Loader2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
+import { useState } from "react";
+import { ArrowRight, Mail, Phone, MapPin, Send, Loader2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
-import { useToast } from '@/hooks/use-toast';
+} from "@/components/ui/select";
+import { useToast } from "@/hooks/use-toast";
 
 const services = [
-  'Desenvolvimento de Software',
-  'Sistemas Web e Aplicações',
-  'Consultoria em TI',
-  'Infraestrutura e Redes',
-  'Cloud Computing',
-  'Integrações e Automações',
-  'Outro',
+  "Desenvolvimento de Software",
+  "Sistemas Web e Aplicações",
+  "Consultoria em TI",
+  "Infraestrutura e Redes",
+  "Cloud Computing",
+  "Integrações e Automações",
+  "Outro",
 ];
 
 const CtaSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    service: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    service: "",
+    message: "",
   });
 
   const handleInputChange = (
@@ -53,25 +53,27 @@ const CtaSection = () => {
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     // Build mailto link with form data
-    const subject = encodeURIComponent(`[Vyte Tech] Contato - ${formData.service}`);
+    const subject = encodeURIComponent(
+      `[Vyte Tech] Contato Cliente - ${formData.service}`
+    );
     const body = encodeURIComponent(
       `Nome: ${formData.name}\nE-mail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\n\nMensagem:\n${formData.message}`
     );
-    
-    window.location.href = `mailto:contato@vytetech.com.br?subject=${subject}&body=${body}`;
+
+    window.location.href = `mailto:vytetech.solutions@gmail.com?subject=${subject}&body=${body}`;
 
     toast({
-      title: 'Redirecionando para seu cliente de e-mail!',
-      description: 'Complete o envio pelo seu aplicativo de e-mail.',
+      title: "Redirecionando para seu cliente de e-mail!",
+      description: "Complete o envio pelo seu aplicativo de e-mail.",
     });
 
     setIsSubmitting(false);
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      service: '',
-      message: '',
+      name: "",
+      email: "",
+      phone: "",
+      service: "",
+      message: "",
     });
   };
 
@@ -80,7 +82,7 @@ const CtaSection = () => {
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-primary/10" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -89,12 +91,16 @@ const CtaSection = () => {
               Pronto para começar?
             </span>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mt-4 mb-6">
-              Transforme sua ideia em{' '}
+              Transforme sua ideia em{" "}
               <span className="gradient-text">realidade digital</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Na Vyte Tech, <span className="text-primary font-semibold">código vira solução</span>. 
-              Entre em contato e descubra como podemos impulsionar o seu negócio com tecnologia de ponta.
+              Na Vyte Tech,{" "}
+              <span className="text-primary font-semibold">
+                código vira solução
+              </span>
+              . Entre em contato e descubra como podemos impulsionar o seu
+              negócio com tecnologia de ponta.
             </p>
           </div>
 
@@ -104,7 +110,7 @@ const CtaSection = () => {
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 Envie sua mensagem
               </h3>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
@@ -217,7 +223,7 @@ const CtaSection = () => {
                     className="w-full justify-start glow-primary text-lg py-6"
                     asChild
                   >
-                    <a href="mailto:contato@vytetech.com.br">
+                    <a href="mailto:vytetech.solutions@gmail.com">
                       <Mail className="mr-3 h-5 w-5" />
                       Enviar e-mail direto
                       <ArrowRight className="ml-auto h-5 w-5" />
@@ -229,7 +235,11 @@ const CtaSection = () => {
                     className="w-full justify-start text-lg py-6 border-primary/50 hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://wa.me/5511983963362"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Phone className="mr-3 h-5 w-5" />
                       Falar pelo WhatsApp
                       <ArrowRight className="ml-auto h-5 w-5" />
@@ -245,9 +255,14 @@ const CtaSection = () => {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <span className="text-sm text-muted-foreground block">E-mail</span>
-                    <a href="mailto:contato@vytetech.com.br" className="text-foreground hover:text-primary transition-colors font-medium">
-                      contato@vytetech.com.br
+                    <span className="text-sm text-muted-foreground block">
+                      E-mail
+                    </span>
+                    <a
+                      href="mailto:vytetech.solutions@gmail.com"
+                      className="text-foreground hover:text-primary transition-colors font-medium"
+                    >
+                      vytetech.solutions@gmail.com
                     </a>
                   </div>
                 </div>
@@ -257,9 +272,14 @@ const CtaSection = () => {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <span className="text-sm text-muted-foreground block">WhatsApp</span>
-                    <a href="https://wa.me/5511999999999" className="text-foreground hover:text-primary transition-colors font-medium">
-                      (11) 99999-9999
+                    <span className="text-sm text-muted-foreground block">
+                      WhatsApp
+                    </span>
+                    <a
+                      href="https://wa.me/5511983963362"
+                      className="text-foreground hover:text-primary transition-colors font-medium"
+                    >
+                      (11) 98396-3362
                     </a>
                   </div>
                 </div>
@@ -269,7 +289,9 @@ const CtaSection = () => {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <span className="text-sm text-muted-foreground block">Localização</span>
+                    <span className="text-sm text-muted-foreground block">
+                      Localização
+                    </span>
                     <span className="text-foreground font-medium">
                       São Paulo, Brasil
                     </span>

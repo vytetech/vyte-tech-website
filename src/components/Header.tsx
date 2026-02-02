@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import vyteLogo from '@/assets/vyte-logo.png';
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import vyteLogo from "@/assets/vyte-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -11,24 +11,25 @@ const Header = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#sobre', label: 'Sobre' },
-    { href: '#servicos', label: 'Serviços' },
-    { href: '#diferenciais', label: 'Diferenciais' },
-    { href: '#contato', label: 'Contato' },
+    { href: "#home", label: "Home" },
+    { href: "#sobre", label: "Sobre" },
+    { href: "#servicos", label: "Serviços" },
+    { href: "#diferenciais", label: "Diferenciais" },
+    { href: "#portfolio", label: "Portfólio" },
+    { href: "#contato", label: "Contato" },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-background/90 backdrop-blur-lg border-b border-border shadow-lg'
-          : 'bg-transparent'
+          ? "bg-background/90 backdrop-blur-lg border-b border-border shadow-lg"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6">

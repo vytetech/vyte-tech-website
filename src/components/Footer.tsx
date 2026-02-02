@@ -1,21 +1,30 @@
-import vyteLogo from '@/assets/vyte-logo.png';
-import { Linkedin, Instagram, Github } from 'lucide-react';
+import vyteLogo from "@/assets/vyte-logo.png";
+import { Linkedin, Instagram, Github } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Github, href: '#', label: 'GitHub' },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/company/vytetech",
+      label: "LinkedIn",
+    },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/vytetech",
+      label: "Instagram",
+    },
+    { icon: Github, href: "https://github.com/vytetech", label: "GitHub" },
   ];
 
   const footerLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#sobre', label: 'Sobre' },
-    { href: '#servicos', label: 'Serviços' },
-    { href: '#diferenciais', label: 'Diferenciais' },
-    { href: '#contato', label: 'Contato' },
+    { href: "#home", label: "Home" },
+    { href: "#sobre", label: "Sobre" },
+    { href: "#servicos", label: "Serviços" },
+    { href: "#diferenciais", label: "Diferenciais" },
+    { href: "#portfolio", label: "Portfólio" },
+    { href: "#contato", label: "Contato" },
   ];
 
   return (
