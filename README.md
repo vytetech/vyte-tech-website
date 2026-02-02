@@ -1,73 +1,195 @@
-# Welcome to your Lovable project
+# Português - BR
 
-## Project info
+# Vyte Tech — Site Oficial
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![Vyte Tech](public/favicon.png)
 
-## How can I edit this code?
+> **Onde código vira solução.**
+> A Vyte Tech é uma empresa de tecnologia focada no desenvolvimento de soluções digitais modernas, escaláveis e de alto desempenho.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 Sobre o Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Este repositório contém o **site oficial da Vyte Tech**, desenvolvido com um stack moderno de frontend, com foco em:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Performance
+- SEO
+- Acessibilidade
+- Design responsivo
+- Arquitetura limpa e escalável
 
-**Use your preferred IDE**
+O site representa a identidade visual da Vyte Tech e atua como uma plataforma institucional e de marketing.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Tecnologias Utilizadas
 
-Follow these steps:
+- **Vite** — Ferramenta moderna e rápida para frontend
+- **React + TypeScript** — Interface baseada em componentes com tipagem segura
+- **Tailwind CSS** — Estilização utilitária e responsiva
+- **Design System (tokens em HSL)** — Identidade visual consistente
+- **SEO & Open Graph** — Otimização para buscadores e redes sociais
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎨 Design & Experiência do Usuário (UX)
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Tema dark premium com identidade tech
+- Layout responsivo (mobile, tablet e desktop)
+- Animações sutis e efeitos de glow
+- Hierarquia visual otimizada para leitura e conversão
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 📁 Estrutura do Projeto
+
+```
+├─ public/              # Arquivos estáticos (favicon, OG images)
+├─ src/
+│  ├─ assets/           # Imagens e logos
+│  ├─ components/       # Componentes reutilizáveis
+│  ├─ pages/            # Seções/páginas do site
+│  ├─ styles/           # Estilos globais e design system
+│  └─ main.tsx          # Ponto de entrada da aplicação
+├─ index.html           # HTML base + metadados de SEO
+├─ package.json         # Dependências e scripts
+└─ vite.config.ts       # Configuração do Vite
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 SEO & Metadados
 
-**Use GitHub Codespaces**
+O projeto inclui:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `<title>` e meta description otimizados
+- Open Graph e Twitter Cards
+- Favicon e dados estruturados (`Schema.org`)
 
-## What technologies are used for this project?
+Essas configurações garantem melhor indexação em mecanismos de busca e previews corretos em redes sociais.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏢 Sobre a Vyte Tech
 
-## How can I deploy this project?
+A Vyte Tech oferece:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Desenvolvimento de software sob medida
+- Sistemas e aplicações web
+- Consultoria em tecnologia
+- Arquiteturas escaláveis e seguras
 
-## Can I connect a custom domain to my Lovable project?
+🌐 Site: [https://vytetech.com.br](https://vytetech.com.br)
+📍 São Paulo — Brasil
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 Licença
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Este projeto é proprietário e mantido pela **Vyte Tech**.
+
+Todos os direitos reservados.
+
+---
+
+**Vyte Tech — Onde código vira solução.**
+
+---
+
+# English - US
+
+# Vyte Tech — Official Website
+
+![Vyte Tech](public/favicon.png)
+
+> **Where code becomes solutions.**  
+> Vyte Tech is a technology company focused on building modern, scalable, and high-performance digital solutions.
+
+---
+
+## 📌 About the Project
+
+This repository contains the **official Vyte Tech website**, built with a modern frontend stack, focused on:
+
+- Performance
+- SEO
+- Accessibility
+- Responsive design
+- Clean and scalable architecture
+
+The website represents Vyte Tech’s visual identity and serves as an institutional and marketing platform.
+
+---
+
+## 🚀 Technologies Used
+
+- **Vite** — Fast and modern frontend tooling
+- **React + TypeScript** — Component-based UI with type safety
+- **Tailwind CSS** — Utility-first and responsive styling
+- **Design System (HSL tokens)** — Consistent visual identity
+- **SEO & Open Graph** — Optimization for search engines and social media
+
+---
+
+## 🎨 Design & User Experience (UX)
+
+- Premium dark tech theme
+- Responsive layout (mobile, tablet, and desktop)
+- Subtle animations and glow effects
+- Optimized visual hierarchy for readability and conversion
+
+---
+
+## 📁 Project Structure
+
+```
+├─ public/                # Static assets (favicon, OG images)
+├─ src/
+│ ├─ assets/              # Images and logos
+│ ├─ components/          # Reusable components
+│ ├─ pages/               # Website sections/pages
+│ ├─ styles/              # Global styles and design system
+│ └─ main.tsx             # Application entry point
+├─ index.html             # Base HTML + SEO metadata
+├─ package.json           # Dependencies and scripts
+└─ vite.config.ts         # Vite configuration
+```
+
+---
+
+## 🧠 SEO & Metadata
+
+The project includes:
+
+- Optimized `<title>` and meta description
+- Open Graph and Twitter Cards
+- Favicon and structured data (`Schema.org`)
+
+These configurations ensure better indexing by search engines and proper previews on social platforms.
+
+---
+
+## 🏢 About Vyte Tech
+
+Vyte Tech delivers:
+
+- Custom software development
+- Web systems and applications
+- Technology consulting
+- Scalable and secure architectures
+
+🌐 Website: https://vytetech.com.br  
+📍 São Paulo — Brazil
+
+---
+
+## 📄 License
+
+This project is proprietary and maintained by **Vyte Tech**.
+
+All rights reserved.
+
+---
+
+**Vyte Tech — Where code becomes solutions.**
