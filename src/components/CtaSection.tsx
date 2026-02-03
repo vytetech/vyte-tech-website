@@ -54,7 +54,7 @@ const CtaSection = () => {
 
     // Build mailto link with form data
     const subject = encodeURIComponent(
-      `[Vyte Tech] Contato Cliente - ${formData.service}`
+      `[VyteTech] Contato Cliente - ${formData.service}`
     );
     const body = encodeURIComponent(
       `Nome: ${formData.name}\nE-mail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\n\nMensagem:\n${formData.message}`
@@ -95,7 +95,7 @@ const CtaSection = () => {
               <span className="gradient-text">realidade digital</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Na Vyte Tech,{" "}
+              Na VyteTech,{" "}
               <span className="text-primary font-semibold">
                 código vira solução
               </span>

@@ -32,7 +32,7 @@ const HeroSection = () => {
 
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0 animate-fade-in">
-            <span className="text-foreground">Vyte Tech</span>
+            <span className="text-foreground">VyteTech</span>
             <br />
             <span className="gradient-text">Onde código vira solução</span>
           </h1>

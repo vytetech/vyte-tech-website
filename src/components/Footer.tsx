@@ -76,7 +76,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {currentYear} Vyte Tech. Todos os direitos reservados.
+              © {currentYear} VyteTech. Todos os direitos reservados.
             </p>
             <p className="text-xs text-muted-foreground">
               CNPJ: XX.XXX.XXX/0001-XX

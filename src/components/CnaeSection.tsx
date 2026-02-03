@@ -1,30 +1,33 @@
-import { FileCode, Shield, CheckCircle2 } from 'lucide-react';
+import { FileCode, Shield, CheckCircle2 } from "lucide-react";
 
 const CnaeSection = () => {
   const cnaes = [
     {
-      code: '6201-5/01',
-      title: 'Desenvolvimento de programas de computador sob encomenda',
+      code: "6201-5/01",
+      title: "Desenvolvimento de programas de computador sob encomenda",
     },
     {
-      code: '6201-5/02',
-      title: 'Web design',
+      code: "6201-5/02",
+      title: "Web design",
     },
     {
-      code: '6202-3/00',
-      title: 'Desenvolvimento e licenciamento de programas de computador customizáveis',
+      code: "6202-3/00",
+      title:
+        "Desenvolvimento e licenciamento de programas de computador customizáveis",
     },
     {
-      code: '6203-1/00',
-      title: 'Desenvolvimento e licenciamento de programas de computador não customizáveis',
+      code: "6203-1/00",
+      title:
+        "Desenvolvimento e licenciamento de programas de computador não customizáveis",
     },
     {
-      code: '6209-1/00',
-      title: 'Suporte técnico, manutenção e outros serviços em tecnologia da informação',
+      code: "6209-1/00",
+      title:
+        "Suporte técnico, manutenção e outros serviços em tecnologia da informação",
     },
     {
-      code: '6204-0/00',
-      title: 'Consultoria em tecnologia da informação',
+      code: "6204-0/00",
+      title: "Consultoria em tecnologia da informação",
     },
   ];
 
@@ -37,16 +40,19 @@ const CnaeSection = () => {
           <div className="lg:w-1/3 space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full">
               <Shield className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-primary">Atuação Legal</span>
+              <span className="text-sm font-medium text-primary">
+                Atuação Legal
+              </span>
             </div>
-            
+
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Áreas de <span className="gradient-text">Atuação</span>
             </h2>
-            
+
             <p className="text-muted-foreground">
-              A Vyte Tech atua de forma regulamentada nas principais atividades de tecnologia 
-              da informação, conforme classificação nacional de atividades econômicas (CNAE).
+              A VyteTech atua de forma regulamentada nas principais atividades
+              de tecnologia da informação, conforme classificação nacional de
+              atividades econômicas (CNAE).
             </p>
 
             <div className="flex items-center gap-3 text-sm text-muted-foreground">

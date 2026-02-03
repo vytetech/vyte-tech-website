@@ -1,17 +1,17 @@
 # Português - BR
 
-# Vyte Tech — Site Oficial
+# VyteTech — Site Oficial
 
-![Vyte Tech](public/favicon.png)
+![VyteTech](public/favicon.png)
 
 > **Onde código vira solução.**
-> A Vyte Tech é uma empresa de tecnologia focada no desenvolvimento de soluções digitais modernas, escaláveis e de alto desempenho.
+> A VyteTech é uma empresa de tecnologia focada no desenvolvimento de soluções digitais modernas, escaláveis e de alto desempenho.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Este repositório contém o **site oficial da Vyte Tech**, desenvolvido com um stack moderno de frontend, com foco em:
+Este repositório contém o **site oficial da VyteTech**, desenvolvido com um stack moderno de frontend, com foco em:
 
 - Performance
 - SEO
@@ -19,7 +19,7 @@ Este repositório contém o **site oficial da Vyte Tech**, desenvolvido com um s
 - Design responsivo
 - Arquitetura limpa e escalável
 
-O site representa a identidade visual da Vyte Tech e atua como uma plataforma institucional e de marketing.
+O site representa a identidade visual da VyteTech e atua como uma plataforma institucional e de marketing.
 
 ---
 
@@ -71,9 +71,9 @@ Essas configurações garantem melhor indexação em mecanismos de busca e previ
 
 ---
 
-## 🏢 Sobre a Vyte Tech
+## 🏢 Sobre a VyteTech
 
-A Vyte Tech oferece:
+A VyteTech oferece:
 
 - Desenvolvimento de software sob medida
 - Sistemas e aplicações web
@@ -87,30 +87,30 @@ A Vyte Tech oferece:
 
 ## 📄 Licença
 
-Este projeto é proprietário e mantido pela **Vyte Tech**.
+Este projeto é proprietário e mantido pela **VyteTech**.
 
 Todos os direitos reservados.
 
 ---
 
-**Vyte Tech — Onde código vira solução.**
+**VyteTech — Onde código vira solução.**
 
 ---
 
 # English - US
 
-# Vyte Tech — Official Website
+# VyteTech — Official Website
 
-![Vyte Tech](public/favicon.png)
+![VyteTech](public/favicon.png)
 
 > **Where code becomes solutions.**  
-> Vyte Tech is a technology company focused on building modern, scalable, and high-performance digital solutions.
+> VyteTech is a technology company focused on building modern, scalable, and high-performance digital solutions.
 
 ---
 
 ## 📌 About the Project
 
-This repository contains the **official Vyte Tech website**, built with a modern frontend stack, focused on:
+This repository contains the **official VyteTech website**, built with a modern frontend stack, focused on:
 
 - Performance
 - SEO
@@ -118,7 +118,7 @@ This repository contains the **official Vyte Tech website**, built with a modern
 - Responsive design
 - Clean and scalable architecture
 
-The website represents Vyte Tech’s visual identity and serves as an institutional and marketing platform.
+The website represents VyteTech’s visual identity and serves as an institutional and marketing platform.
 
 ---
 
@@ -172,7 +172,7 @@ These configurations ensure better indexing by search engines and proper preview
 
 ## 🏢 About Vyte Tech
 
-Vyte Tech delivers:
+VyteTech delivers:
 
 - Custom software development
 - Web systems and applications
@@ -186,10 +186,10 @@ Vyte Tech delivers:
 
 ## 📄 License
 
-This project is proprietary and maintained by **Vyte Tech**.
+This project is proprietary and maintained by **VyteTech**.
 
 All rights reserved.
 
 ---
 
-**Vyte Tech — Where code becomes solutions.**
+**VyteTech — Where code becomes solutions.**
