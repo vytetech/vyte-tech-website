@@ -79,7 +79,7 @@ const Footer = () => {
               © {currentYear} VyteTech. Todos os direitos reservados.
             </p>
             <p className="text-xs text-muted-foreground">
-              CNPJ: XX.XXX.XXX/0001-XX
+              CNPJ: 64.655.034/0001-05
             </p>
           </div>
         </div>
