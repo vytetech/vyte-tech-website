@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import vyteLogo from "@/assets/vyte-logo.png";
+import vyteLogo from "@/assets/vytetech-logo.svg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,12 +38,9 @@ const Header = () => {
           <a href="#home" className="flex items-center gap-3 group">
             <img
               src={vyteLogo}
-              alt="Vyte Tech"
-              className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
+              alt="VyteTech"
+              className="h-16 lg:h-32 w-auto transition-transform duration-300 group-hover:scale-105"
             />
-            <span className="text-xl font-bold text-foreground">
-              Vyte<span className="text-primary">Tech</span>
-            </span>
           </a>
 
           {/* Desktop Navigation */}

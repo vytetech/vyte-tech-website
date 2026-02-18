@@ -21,20 +21,15 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
-          {/* Logo animation */}
-          <div className="hidden md:flex justify-center mb-8 animate-float">
-            <img
-              src={vyteLogo}
-              alt="Vyte Tech Logo"
-              className="h-24 md:h-32 w-auto drop-shadow-2xl"
-            />
-          </div>
-
           {/* Main headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0 animate-fade-in">
-            <span className="text-foreground">VyteTech</span>
-            <br />
-            <span className="gradient-text">Onde código vira solução</span>
+          <h1 className="font-bold text-center leading-[1.2]">
+            <span className="block text-5xl md:text-6xl lg:text-7xl text-foreground">
+              VyteTech
+            </span>
+
+            <span className="sm:text-xl text-2xl md:text-6xl lg:text-7xl gradient-text whitespace-nowrap">
+              Tecnologia para Negócios
+            </span>
           </h1>
 
           {/* Subtitle */}

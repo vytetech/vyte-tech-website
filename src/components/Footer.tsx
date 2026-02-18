@@ -1,4 +1,4 @@
-import vyteLogo from "@/assets/vyte-logo.png";
+import vyteLogo from "@/assets/vytetech-logo.svg";
 import { Linkedin, Instagram, Github } from "lucide-react";
 
 const Footer = () => {
@@ -32,15 +32,15 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo and slogan */}
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <div className="flex items-center gap-3">
-              <img src={vyteLogo} alt="Vyte Tech" className="h-10 w-auto" />
-              <span className="text-xl font-bold text-foreground">
-                Vyte<span className="text-primary">Tech</span>
-              </span>
-            </div>
+          <div className="flex flex-col items-center md:items-start">
+            <img
+              src={vyteLogo}
+              alt="VyteTech"
+              className="h-16 md:h-24 lg:h-28 w-auto"
+            />
+
             <p className="text-sm text-muted-foreground italic">
-              "Onde código vira solução"
+              "Tecnologia para Negócios"
             </p>
           </div>
 

@@ -35,7 +35,7 @@ const CtaSection = () => {
   });
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -54,13 +54,13 @@ const CtaSection = () => {
 
     // Build mailto link with form data
     const subject = encodeURIComponent(
-      `[VyteTech] Contato Cliente - ${formData.service}`
+      `[VyteTech] Contato Cliente - ${formData.service}`,
     );
     const body = encodeURIComponent(
-      `Nome: ${formData.name}\nE-mail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\n\nMensagem:\n${formData.message}`
+      `Nome: ${formData.name}\nE-mail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\n\nMensagem:\n${formData.message}`,
     );
 
-    window.location.href = `mailto:vytetech.solutions@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contato@vytetech.com?subject=${subject}&body=${body}`;
 
     toast({
       title: "Redirecionando para seu cliente de e-mail!",
@@ -223,7 +223,7 @@ const CtaSection = () => {
                     className="w-full justify-start glow-primary text-lg py-6"
                     asChild
                   >
-                    <a href="mailto:vytetech.solutions@gmail.com">
+                    <a href="mailto:contato@vytetech.com">
                       <Mail className="mr-3 h-5 w-5" />
                       Enviar e-mail direto
                       <ArrowRight className="ml-auto h-5 w-5" />
@@ -259,10 +259,10 @@ const CtaSection = () => {
                       E-mail
                     </span>
                     <a
-                      href="mailto:vytetech.solutions@gmail.com"
+                      href="mailto:contato@vytetech.com"
                       className="text-foreground hover:text-primary transition-colors font-medium"
                     >
-                      vytetech.solutions@gmail.com
+                      contato@vytetech.com
                     </a>
                   </div>
                 </div>
